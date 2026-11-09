@@ -1,0 +1,1415 @@
+{
+  "version": 1,
+  "updated_ms": 1794215229972,
+  "settings": {
+    "spawns": {
+      "enabled": true,
+      "algorithm": "weighted",
+      "species": [
+        1,
+        4,
+        7,
+        10,
+        13,
+        16,
+        19,
+        25,
+        27,
+        37,
+        52,
+        54,
+        58,
+        60,
+        63,
+        66,
+        69,
+        72,
+        74,
+        77,
+        79,
+        81,
+        92,
+        95,
+        98,
+        104,
+        111,
+        113,
+        115,
+        118,
+        120,
+        122,
+        123,
+        129,
+        131,
+        133,
+        137,
+        143,
+        147,
+        152
+      ],
+      "interval_s": 30,
+      "max_active": 80,
+      "lifetime_s": 1800,
+      "per_cycle": 2,
+      "radius_m": 300,
+      "level_min": 1,
+      "level_max": 35,
+      "iv_min": 0,
+      "iv_max": 15
+    },
+    "raids": {
+      "enabled": true,
+      "algorithm": "tier_weights",
+      "bosses": [
+        {
+          "species": 150,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 144,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 145,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 146,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 243,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 249,
+          "tier": 5,
+          "weight": 1.0
+        },
+        {
+          "species": 250,
+          "tier": 5,
+          "weight": 1.0
+        }
+      ],
+      "interval_s": 120,
+      "max_active": 12,
+      "lifetime_s": 3600,
+      "egg_s": 0
+    }
+  },
+  "spawns": [
+    {
+      "id": "spawn:efd831e26e89c58f",
+      "species": 92,
+      "lat": 52.36458447660715,
+      "lng": 4.917918577066977,
+      "level": 23,
+      "ivs": [
+        7,
+        3,
+        5
+      ],
+      "poi_id": "admin:osm:node/290735740",
+      "spawned_ms": 1794214023801,
+      "expires_ms": 1794215823801,
+      "manual": false
+    },
+    {
+      "id": "spawn:17a960fcf2521c7f",
+      "species": 37,
+      "lat": 52.36275867711196,
+      "lng": 4.902846008654978,
+      "level": 1,
+      "ivs": [
+        2,
+        0,
+        0
+      ],
+      "poi_id": "admin:osm:node/2280697439",
+      "spawned_ms": 1794214023804,
+      "expires_ms": 1794215823804,
+      "manual": false
+    },
+    {
+      "id": "spawn:8095686b8e0532d5",
+      "species": 66,
+      "lat": 60.25558214489241,
+      "lng": 25.03335883021431,
+      "level": 7,
+      "ivs": [
+        7,
+        4,
+        1
+      ],
+      "poi_id": "admin:osm:node/525353611",
+      "spawned_ms": 1794214054041,
+      "expires_ms": 1794215854041,
+      "manual": false
+    },
+    {
+      "id": "spawn:7de2af77e0b89dc7",
+      "species": 118,
+      "lat": 52.36676330187459,
+      "lng": 4.899806890075872,
+      "level": 28,
+      "ivs": [
+        3,
+        3,
+        12
+      ],
+      "poi_id": "admin:osm:node/2672987288",
+      "spawned_ms": 1794214054045,
+      "expires_ms": 1794215854045,
+      "manual": false
+    },
+    {
+      "id": "spawn:335c62e3139c832c",
+      "species": 58,
+      "lat": 60.27422422261133,
+      "lng": 25.03640971800886,
+      "level": 23,
+      "ivs": [
+        1,
+        7,
+        14
+      ],
+      "poi_id": "admin:osm:node/428748758",
+      "spawned_ms": 1794214084306,
+      "expires_ms": 1794215884306,
+      "manual": false
+    },
+    {
+      "id": "spawn:afb0d99006f435cd",
+      "species": 122,
+      "lat": 52.368094951922565,
+      "lng": 4.919816607691633,
+      "level": 11,
+      "ivs": [
+        14,
+        10,
+        12
+      ],
+      "poi_id": "admin:osm:node/290735740",
+      "spawned_ms": 1794214084310,
+      "expires_ms": 1794215884310,
+      "manual": false
+    },
+    {
+      "id": "spawn:c75d232b24dca544",
+      "species": 60,
+      "lat": 52.36736614010064,
+      "lng": 4.890470356423466,
+      "level": 10,
+      "ivs": [
+        14,
+        13,
+        8
+      ],
+      "poi_id": "admin:osm:node/1135509041",
+      "spawned_ms": 1794214114572,
+      "expires_ms": 1794215914572,
+      "manual": false
+    },
+    {
+      "id": "spawn:b874f325d517ebb3",
+      "species": 129,
+      "lat": 60.262739535210294,
+      "lng": 25.04490324794905,
+      "level": 13,
+      "ivs": [
+        4,
+        4,
+        10
+      ],
+      "poi_id": "admin:osm:node/502973470",
+      "spawned_ms": 1794214114576,
+      "expires_ms": 1794215914576,
+      "manual": false
+    },
+    {
+      "id": "spawn:3a2bbdaf9dafe6bb",
+      "species": 79,
+      "lat": 60.26677219838051,
+      "lng": 25.031092511156018,
+      "level": 27,
+      "ivs": [
+        11,
+        13,
+        0
+      ],
+      "poi_id": "admin:osm:node/478591382",
+      "spawned_ms": 1794214144964,
+      "expires_ms": 1794215944964,
+      "manual": false
+    },
+    {
+      "id": "spawn:4274ad8ac4940bc8",
+      "species": 25,
+      "lat": 52.36540988149226,
+      "lng": 4.902014910736779,
+      "level": 13,
+      "ivs": [
+        4,
+        2,
+        10
+      ],
+      "poi_id": "admin:osm:node/855243398",
+      "spawned_ms": 1794214144968,
+      "expires_ms": 1794215944968,
+      "manual": false
+    },
+    {
+      "id": "spawn:af5dd0b4beafd924",
+      "species": 118,
+      "lat": 52.36337778812706,
+      "lng": 4.919399850752468,
+      "level": 22,
+      "ivs": [
+        6,
+        14,
+        15
+      ],
+      "poi_id": "admin:osm:node/46350382",
+      "spawned_ms": 1794214175309,
+      "expires_ms": 1794215975309,
+      "manual": false
+    },
+    {
+      "id": "spawn:572052b6bf610c31",
+      "species": 13,
+      "lat": 60.2739088893384,
+      "lng": 24.99398640627071,
+      "level": 9,
+      "ivs": [
+        15,
+        0,
+        15
+      ],
+      "poi_id": "admin:osm:node/315746762",
+      "spawned_ms": 1794214175312,
+      "expires_ms": 1794215975312,
+      "manual": false
+    },
+    {
+      "id": "spawn:a3398b3eeda2bf69",
+      "species": 122,
+      "lat": 52.37654646379163,
+      "lng": 4.909813744312066,
+      "level": 8,
+      "ivs": [
+        12,
+        1,
+        10
+      ],
+      "poi_id": "admin:osm:node/251154465",
+      "spawned_ms": 1794214205599,
+      "expires_ms": 1794216005599,
+      "manual": false
+    },
+    {
+      "id": "spawn:cd4c174030ab0e23",
+      "species": 72,
+      "lat": 60.25221331524014,
+      "lng": 25.013306107347468,
+      "level": 11,
+      "ivs": [
+        5,
+        1,
+        9
+      ],
+      "poi_id": "admin:osm:node/540058738",
+      "spawned_ms": 1794214205602,
+      "expires_ms": 1794216005602,
+      "manual": false
+    },
+    {
+      "id": "spawn:8638e909fa0d6707",
+      "species": 147,
+      "lat": 60.26837859977862,
+      "lng": 24.999325406295323,
+      "level": 16,
+      "ivs": [
+        7,
+        11,
+        1
+      ],
+      "poi_id": "admin:osm:node/510511850",
+      "spawned_ms": 1794214235829,
+      "expires_ms": 1794216035829,
+      "manual": false
+    },
+    {
+      "id": "spawn:f325d788bcc58fae",
+      "species": 122,
+      "lat": 60.2532645180595,
+      "lng": 25.01234340684621,
+      "level": 26,
+      "ivs": [
+        15,
+        4,
+        15
+      ],
+      "poi_id": "admin:osm:node/540058740",
+      "spawned_ms": 1794214235832,
+      "expires_ms": 1794216035832,
+      "manual": false
+    },
+    {
+      "id": "spawn:c4ec86fd63a4ca43",
+      "species": 16,
+      "lat": 52.37188740675221,
+      "lng": 4.909081526403556,
+      "level": 22,
+      "ivs": [
+        2,
+        4,
+        9
+      ],
+      "poi_id": "admin:osm:node/1079768926",
+      "spawned_ms": 1794214266030,
+      "expires_ms": 1794216066030,
+      "manual": false
+    },
+    {
+      "id": "spawn:d764456fb7bf110c",
+      "species": 54,
+      "lat": 52.36252663418057,
+      "lng": 4.910330792937985,
+      "level": 6,
+      "ivs": [
+        0,
+        7,
+        15
+      ],
+      "poi_id": "admin:osm:node/440009655",
+      "spawned_ms": 1794214266032,
+      "expires_ms": 1794216066032,
+      "manual": false
+    },
+    {
+      "id": "spawn:486a1b3961c51aec",
+      "species": 19,
+      "lat": 60.269217303980646,
+      "lng": 25.03175902131638,
+      "level": 28,
+      "ivs": [
+        6,
+        2,
+        8
+      ],
+      "poi_id": "admin:osm:node/443679704",
+      "spawned_ms": 1794214296235,
+      "expires_ms": 1794216096235,
+      "manual": false
+    },
+    {
+      "id": "spawn:48d036a5bddbaaf2",
+      "species": 10,
+      "lat": 60.275621557331064,
+      "lng": 25.041225400970593,
+      "level": 14,
+      "ivs": [
+        10,
+        14,
+        9
+      ],
+      "poi_id": "admin:osm:node/434404933",
+      "spawned_ms": 1794214296239,
+      "expires_ms": 1794216096239,
+      "manual": false
+    },
+    {
+      "id": "spawn:6b0672ba60c62ec0",
+      "species": 98,
+      "lat": 60.26152859055497,
+      "lng": 25.008967142745416,
+      "level": 31,
+      "ivs": [
+        11,
+        6,
+        6
+      ],
+      "poi_id": "admin:osm:node/525504258",
+      "spawned_ms": 1794214326442,
+      "expires_ms": 1794216126442,
+      "manual": false
+    },
+    {
+      "id": "spawn:441b7d1efef89e33",
+      "species": 123,
+      "lat": 60.250159707741076,
+      "lng": 25.011789789167608,
+      "level": 27,
+      "ivs": [
+        15,
+        4,
+        3
+      ],
+      "poi_id": "admin:osm:node/535086945",
+      "spawned_ms": 1794214326444,
+      "expires_ms": 1794216126444,
+      "manual": false
+    },
+    {
+      "id": "spawn:be99c614a9dddf61",
+      "species": 74,
+      "lat": 52.36421704696357,
+      "lng": 4.898583963957363,
+      "level": 20,
+      "ivs": [
+        14,
+        8,
+        8
+      ],
+      "poi_id": "admin:osm:node/440673917",
+      "spawned_ms": 1794214356650,
+      "expires_ms": 1794216156650,
+      "manual": false
+    },
+    {
+      "id": "spawn:ad470017cafefc7f",
+      "species": 118,
+      "lat": 52.36838978661913,
+      "lng": 4.895941920155397,
+      "level": 31,
+      "ivs": [
+        15,
+        3,
+        13
+      ],
+      "poi_id": "admin:osm:node/295868730",
+      "spawned_ms": 1794214356653,
+      "expires_ms": 1794216156653,
+      "manual": false
+    },
+    {
+      "id": "spawn:8d6c1250f7324d3c",
+      "species": 19,
+      "lat": 60.2786488446656,
+      "lng": 25.006196024808865,
+      "level": 35,
+      "ivs": [
+        10,
+        15,
+        4
+      ],
+      "poi_id": "admin:osm:node/428763814",
+      "spawned_ms": 1794214386824,
+      "expires_ms": 1794216186824,
+      "manual": false
+    },
+    {
+      "id": "spawn:7d885a46c36cceb6",
+      "species": 133,
+      "lat": 52.37035009205545,
+      "lng": 4.907449293511064,
+      "level": 18,
+      "ivs": [
+        13,
+        7,
+        2
+      ],
+      "poi_id": "admin:osm:node/1079768989",
+      "spawned_ms": 1794214386825,
+      "expires_ms": 1794216186825,
+      "manual": false
+    },
+    {
+      "id": "spawn:529520a9bebbc36f",
+      "species": 81,
+      "lat": 60.26849035331985,
+      "lng": 25.027960167535248,
+      "level": 5,
+      "ivs": [
+        8,
+        14,
+        11
+      ],
+      "poi_id": "admin:osm:node/478591382",
+      "spawned_ms": 1794214417013,
+      "expires_ms": 1794216217013,
+      "manual": false
+    },
+    {
+      "id": "spawn:95a16b8e063ef9e4",
+      "species": 63,
+      "lat": 52.37440698197525,
+      "lng": 4.907065754221537,
+      "level": 27,
+      "ivs": [
+        4,
+        13,
+        8
+      ],
+      "poi_id": "admin:osm:node/1079768989",
+      "spawned_ms": 1794214417014,
+      "expires_ms": 1794216217014,
+      "manual": false
+    },
+    {
+      "id": "spawn:ee3c17f257c5d844",
+      "species": 113,
+      "lat": 52.36688514199012,
+      "lng": 4.905181474841253,
+      "level": 5,
+      "ivs": [
+        0,
+        8,
+        7
+      ],
+      "poi_id": "admin:osm:node/34051159",
+      "spawned_ms": 1794214447209,
+      "expires_ms": 1794216247209,
+      "manual": false
+    },
+    {
+      "id": "spawn:39627628b5dfd5c6",
+      "species": 63,
+      "lat": 60.27977201029017,
+      "lng": 25.003989956654543,
+      "level": 27,
+      "ivs": [
+        4,
+        5,
+        9
+      ],
+      "poi_id": "admin:osm:node/428763814",
+      "spawned_ms": 1794214447211,
+      "expires_ms": 1794216247211,
+      "manual": false
+    },
+    {
+      "id": "spawn:7db647be3c321269",
+      "species": 98,
+      "lat": 60.281532786276024,
+      "lng": 25.011414229897998,
+      "level": 18,
+      "ivs": [
+        10,
+        10,
+        3
+      ],
+      "poi_id": "admin:osm:node/428773291",
+      "spawned_ms": 1794214477411,
+      "expires_ms": 1794216277411,
+      "manual": false
+    },
+    {
+      "id": "spawn:a3fe17ea52ab64a4",
+      "species": 25,
+      "lat": 60.27638765001592,
+      "lng": 25.018305800703676,
+      "level": 19,
+      "ivs": [
+        11,
+        14,
+        0
+      ],
+      "poi_id": "admin:osm:node/428785529",
+      "spawned_ms": 1794214477412,
+      "expires_ms": 1794216277412,
+      "manual": false
+    },
+    {
+      "id": "spawn:a25c08fa293a8a01",
+      "species": 52,
+      "lat": 60.25912374999646,
+      "lng": 25.022251631656946,
+      "level": 1,
+      "ivs": [
+        8,
+        12,
+        3
+      ],
+      "poi_id": "admin:osm:node/321581205",
+      "spawned_ms": 1794214507597,
+      "expires_ms": 1794216307597,
+      "manual": false
+    },
+    {
+      "id": "spawn:ca2bf159a4ab65e8",
+      "species": 37,
+      "lat": 52.3780103534779,
+      "lng": 4.900034793709191,
+      "level": 6,
+      "ivs": [
+        6,
+        12,
+        11
+      ],
+      "poi_id": "admin:osm:node/2316881868",
+      "spawned_ms": 1794214507599,
+      "expires_ms": 1794216307599,
+      "manual": false
+    },
+    {
+      "id": "spawn:05d25b4fb01a20f3",
+      "species": 95,
+      "lat": 52.37556394398674,
+      "lng": 4.894341460788536,
+      "level": 1,
+      "ivs": [
+        7,
+        14,
+        9
+      ],
+      "poi_id": "admin:osm:node/2672742552",
+      "spawned_ms": 1794214537813,
+      "expires_ms": 1794216337813,
+      "manual": false
+    },
+    {
+      "id": "spawn:576a47c3ca0b2f97",
+      "species": 13,
+      "lat": 60.260723684606795,
+      "lng": 24.993150920997298,
+      "level": 31,
+      "ivs": [
+        12,
+        14,
+        5
+      ],
+      "poi_id": "admin:osm:node/514737900",
+      "spawned_ms": 1794214537815,
+      "expires_ms": 1794216337815,
+      "manual": false
+    },
+    {
+      "id": "spawn:8e07a113a07cafad",
+      "species": 77,
+      "lat": 52.35723743645414,
+      "lng": 4.895852884192575,
+      "level": 22,
+      "ivs": [
+        4,
+        4,
+        4
+      ],
+      "poi_id": "admin:osm:node/2628741156",
+      "spawned_ms": 1794214568218,
+      "expires_ms": 1794216368218,
+      "manual": false
+    },
+    {
+      "id": "spawn:e5a0189faee28176",
+      "species": 74,
+      "lat": 60.25068777222487,
+      "lng": 25.00621945355944,
+      "level": 29,
+      "ivs": [
+        15,
+        13,
+        1
+      ],
+      "poi_id": "admin:osm:node/535086946",
+      "spawned_ms": 1794214568220,
+      "expires_ms": 1794216368220,
+      "manual": false
+    },
+    {
+      "id": "spawn:6a298b321a09a437",
+      "species": 104,
+      "lat": 52.37850296465237,
+      "lng": 4.907591477659693,
+      "level": 26,
+      "ivs": [
+        10,
+        13,
+        15
+      ],
+      "poi_id": "admin:osm:node/251154465",
+      "spawned_ms": 1794214598758,
+      "expires_ms": 1794216398758,
+      "manual": false
+    },
+    {
+      "id": "spawn:4b110ab5beb4cc25",
+      "species": 58,
+      "lat": 60.24956858106508,
+      "lng": 25.005032386127304,
+      "level": 21,
+      "ivs": [
+        11,
+        15,
+        8
+      ],
+      "poi_id": "admin:osm:node/535086944",
+      "spawned_ms": 1794214598761,
+      "expires_ms": 1794216398761,
+      "manual": false
+    },
+    {
+      "id": "spawn:3fa0e68a7d8770ed",
+      "species": 111,
+      "lat": 60.27039594263314,
+      "lng": 25.054346748819288,
+      "level": 30,
+      "ivs": [
+        13,
+        11,
+        14
+      ],
+      "poi_id": "admin:osm:node/492879546",
+      "spawned_ms": 1794214628999,
+      "expires_ms": 1794216428999,
+      "manual": false
+    },
+    {
+      "id": "spawn:d7a86773f1dc2a93",
+      "species": 37,
+      "lat": 60.27899715045997,
+      "lng": 25.008596838994272,
+      "level": 34,
+      "ivs": [
+        5,
+        12,
+        13
+      ],
+      "poi_id": "admin:osm:node/428763814",
+      "spawned_ms": 1794214629003,
+      "expires_ms": 1794216429003,
+      "manual": false
+    },
+    {
+      "id": "spawn:4f1633d3e734066a",
+      "species": 54,
+      "lat": 52.37179331995953,
+      "lng": 4.9139201226269575,
+      "level": 2,
+      "ivs": [
+        15,
+        15,
+        1
+      ],
+      "poi_id": "admin:osm:node/2087644061",
+      "spawned_ms": 1794214659437,
+      "expires_ms": 1794216459437,
+      "manual": false
+    },
+    {
+      "id": "spawn:6ba0566008900e3c",
+      "species": 120,
+      "lat": 60.26291148449338,
+      "lng": 25.014878314209692,
+      "level": 19,
+      "ivs": [
+        3,
+        2,
+        1
+      ],
+      "poi_id": "admin:osm:node/525504258",
+      "spawned_ms": 1794214659440,
+      "expires_ms": 1794216459440,
+      "manual": false
+    },
+    {
+      "id": "spawn:4e61ea8abd909308",
+      "species": 92,
+      "lat": 60.28052942421671,
+      "lng": 25.007115579236924,
+      "level": 29,
+      "ivs": [
+        3,
+        2,
+        12
+      ],
+      "poi_id": "admin:osm:node/428773291",
+      "spawned_ms": 1794214689785,
+      "expires_ms": 1794216489785,
+      "manual": false
+    },
+    {
+      "id": "spawn:e6bb5df9ad69f02d",
+      "species": 60,
+      "lat": 52.366594591179734,
+      "lng": 4.905330803330159,
+      "level": 16,
+      "ivs": [
+        14,
+        2,
+        8
+      ],
+      "poi_id": "admin:osm:node/1843775917",
+      "spawned_ms": 1794214689787,
+      "expires_ms": 1794216489787,
+      "manual": false
+    },
+    {
+      "id": "spawn:5b599fbf1a3bbe4e",
+      "species": 72,
+      "lat": 52.36309619907397,
+      "lng": 4.909822668664223,
+      "level": 9,
+      "ivs": [
+        9,
+        10,
+        3
+      ],
+      "poi_id": "admin:osm:node/434441207",
+      "spawned_ms": 1794214720049,
+      "expires_ms": 1794216520049,
+      "manual": false
+    },
+    {
+      "id": "spawn:5be121053d8e2c5e",
+      "species": 27,
+      "lat": 52.369887475761274,
+      "lng": 4.900247016658533,
+      "level": 10,
+      "ivs": [
+        15,
+        10,
+        5
+      ],
+      "poi_id": "admin:osm:node/250624673",
+      "spawned_ms": 1794214720052,
+      "expires_ms": 1794216520052,
+      "manual": false
+    },
+    {
+      "id": "spawn:aba89aee15c1b031",
+      "species": 95,
+      "lat": 52.367774262291974,
+      "lng": 4.898293484520246,
+      "level": 5,
+      "ivs": [
+        5,
+        14,
+        15
+      ],
+      "poi_id": "admin:osm:node/489447049",
+      "spawned_ms": 1794214750354,
+      "expires_ms": 1794216550354,
+      "manual": false
+    },
+    {
+      "id": "spawn:22ee425b980b147e",
+      "species": 131,
+      "lat": 52.36824441326636,
+      "lng": 4.904487329362915,
+      "level": 14,
+      "ivs": [
+        11,
+        1,
+        14
+      ],
+      "poi_id": "admin:osm:node/441674928",
+      "spawned_ms": 1794214750356,
+      "expires_ms": 1794216550356,
+      "manual": false
+    },
+    {
+      "id": "spawn:0b13bcac6a85045e",
+      "species": 98,
+      "lat": 52.37120518503827,
+      "lng": 4.886512309934068,
+      "level": 15,
+      "ivs": [
+        14,
+        8,
+        6
+      ],
+      "poi_id": "admin:osm:node/292367162",
+      "spawned_ms": 1794214780575,
+      "expires_ms": 1794216580575,
+      "manual": false
+    },
+    {
+      "id": "spawn:c6e185ab8ab2ff4d",
+      "species": 60,
+      "lat": 60.277296986779994,
+      "lng": 25.029151083657823,
+      "level": 7,
+      "ivs": [
+        5,
+        10,
+        0
+      ],
+      "poi_id": "admin:osm:node/428790791",
+      "spawned_ms": 1794214780576,
+      "expires_ms": 1794216580576,
+      "manual": false
+    },
+    {
+      "id": "spawn:a5ed5018c6789acd",
+      "species": 25,
+      "lat": 60.25737225679421,
+      "lng": 25.036116856302307,
+      "level": 33,
+      "ivs": [
+        12,
+        2,
+        7
+      ],
+      "poi_id": "admin:osm:node/418998280",
+      "spawned_ms": 1794214810873,
+      "expires_ms": 1794216610873,
+      "manual": false
+    },
+    {
+      "id": "spawn:e939b984fa6d756c",
+      "species": 63,
+      "lat": 52.36699307672507,
+      "lng": 4.911068182182201,
+      "level": 32,
+      "ivs": [
+        8,
+        4,
+        2
+      ],
+      "poi_id": "admin:osm:node/2673071086",
+      "spawned_ms": 1794214810879,
+      "expires_ms": 1794216610879,
+      "manual": false
+    },
+    {
+      "id": "spawn:ccec703a750a6229",
+      "species": 129,
+      "lat": 52.367488134046106,
+      "lng": 4.900817731332675,
+      "level": 29,
+      "ivs": [
+        11,
+        12,
+        14
+      ],
+      "poi_id": "admin:osm:node/489447049",
+      "spawned_ms": 1794214841242,
+      "expires_ms": 1794216641242,
+      "manual": false
+    },
+    {
+      "id": "spawn:bbd3d6b975808536",
+      "species": 58,
+      "lat": 52.35874902248121,
+      "lng": 4.896352058448473,
+      "level": 3,
+      "ivs": [
+        5,
+        5,
+        7
+      ],
+      "poi_id": "admin:osm:node/2628741156",
+      "spawned_ms": 1794214841248,
+      "expires_ms": 1794216641248,
+      "manual": false
+    },
+    {
+      "id": "spawn:ee4673b8114988cd",
+      "species": 19,
+      "lat": 52.370143264255624,
+      "lng": 4.898856016850968,
+      "level": 27,
+      "ivs": [
+        4,
+        4,
+        7
+      ],
+      "poi_id": "admin:osm:node/1028402695",
+      "spawned_ms": 1794214871763,
+      "expires_ms": 1794216671763,
+      "manual": false
+    },
+    {
+      "id": "spawn:07dd738eed10355b",
+      "species": 122,
+      "lat": 60.2660077241866,
+      "lng": 24.99571224096073,
+      "level": 11,
+      "ivs": [
+        4,
+        13,
+        13
+      ],
+      "poi_id": "admin:osm:node/514742551",
+      "spawned_ms": 1794214871767,
+      "expires_ms": 1794216671767,
+      "manual": false
+    },
+    {
+      "id": "spawn:256d113b2e7f8ea4",
+      "species": 7,
+      "lat": 52.36966806374793,
+      "lng": 4.907467515102163,
+      "level": 6,
+      "ivs": [
+        13,
+        7,
+        4
+      ],
+      "poi_id": "admin:osm:node/441674928",
+      "spawned_ms": 1794214902280,
+      "expires_ms": 1794216702280,
+      "manual": false
+    },
+    {
+      "id": "spawn:56ba18a03f7ef5d3",
+      "species": 13,
+      "lat": 52.36894739588856,
+      "lng": 4.902241380266533,
+      "level": 16,
+      "ivs": [
+        14,
+        1,
+        0
+      ],
+      "poi_id": "admin:osm:node/250624673",
+      "spawned_ms": 1794214902285,
+      "expires_ms": 1794216702285,
+      "manual": false
+    },
+    {
+      "id": "spawn:9568cd666bed5cd8",
+      "species": 54,
+      "lat": 52.36158894607297,
+      "lng": 4.892239390039641,
+      "level": 4,
+      "ivs": [
+        1,
+        6,
+        1
+      ],
+      "poi_id": "admin:osm:node/250624672",
+      "spawned_ms": 1794214932672,
+      "expires_ms": 1794216732672,
+      "manual": false
+    },
+    {
+      "id": "spawn:dd589360525b7211",
+      "species": 137,
+      "lat": 60.26341602023902,
+      "lng": 25.045685555250824,
+      "level": 33,
+      "ivs": [
+        10,
+        6,
+        12
+      ],
+      "poi_id": "admin:osm:node/534607040",
+      "spawned_ms": 1794214932680,
+      "expires_ms": 1794216732680,
+      "manual": false
+    },
+    {
+      "id": "spawn:3f8fd44d875fe050",
+      "species": 147,
+      "lat": 60.25441754861613,
+      "lng": 25.03390115507636,
+      "level": 21,
+      "ivs": [
+        13,
+        0,
+        4
+      ],
+      "poi_id": "admin:osm:node/525353571",
+      "spawned_ms": 1794214965611,
+      "expires_ms": 1794216765611,
+      "manual": false
+    },
+    {
+      "id": "spawn:360ce56f109a669b",
+      "species": 72,
+      "lat": 60.25092054507415,
+      "lng": 25.014446977127797,
+      "level": 18,
+      "ivs": [
+        9,
+        15,
+        1
+      ],
+      "poi_id": "admin:osm:node/540058738",
+      "spawned_ms": 1794214965985,
+      "expires_ms": 1794216765985,
+      "manual": false
+    },
+    {
+      "id": "spawn:3a5b8ba49b5bd0d9",
+      "species": 58,
+      "lat": 60.26933961600107,
+      "lng": 25.019326958204257,
+      "level": 7,
+      "ivs": [
+        10,
+        6,
+        8
+      ],
+      "poi_id": "admin:osm:node/533647379",
+      "spawned_ms": 1794214997491,
+      "expires_ms": 1794216797491,
+      "manual": false
+    },
+    {
+      "id": "spawn:ca5c49425107ba5c",
+      "species": 74,
+      "lat": 52.362353584784834,
+      "lng": 4.919567478619513,
+      "level": 35,
+      "ivs": [
+        0,
+        4,
+        2
+      ],
+      "poi_id": "admin:osm:node/2593697919",
+      "spawned_ms": 1794214997539,
+      "expires_ms": 1794216797539,
+      "manual": false
+    },
+    {
+      "id": "spawn:4a08eaf206f10034",
+      "species": 81,
+      "lat": 60.261683006764024,
+      "lng": 24.99980392704286,
+      "level": 9,
+      "ivs": [
+        12,
+        5,
+        5
+      ],
+      "poi_id": "admin:osm:node/525504209",
+      "spawned_ms": 1794215032542,
+      "expires_ms": 1794216832542,
+      "manual": false
+    },
+    {
+      "id": "spawn:b0a826d1f25d788e",
+      "species": 104,
+      "lat": 52.36425538703183,
+      "lng": 4.913318860759897,
+      "level": 20,
+      "ivs": [
+        5,
+        8,
+        11
+      ],
+      "poi_id": "admin:osm:node/1524769037",
+      "spawned_ms": 1794215032680,
+      "expires_ms": 1794216832680,
+      "manual": false
+    },
+    {
+      "id": "spawn:5c11e37d4e23ede5",
+      "species": 131,
+      "lat": 60.25580221647335,
+      "lng": 25.015523551256276,
+      "level": 3,
+      "ivs": [
+        7,
+        13,
+        3
+      ],
+      "poi_id": "admin:osm:node/540058740",
+      "spawned_ms": 1794215062484,
+      "expires_ms": 1794216862484,
+      "manual": false
+    },
+    {
+      "id": "spawn:9514ddc438d66638",
+      "species": 63,
+      "lat": 52.37278363114057,
+      "lng": 4.892431201691159,
+      "level": 3,
+      "ivs": [
+        15,
+        3,
+        6
+      ],
+      "poi_id": "admin:osm:node/237938749",
+      "spawned_ms": 1794215062507,
+      "expires_ms": 1794216862507,
+      "manual": false
+    },
+    {
+      "id": "spawn:3ad8d6bd42176fff",
+      "species": 118,
+      "lat": 60.25986167143699,
+      "lng": 25.022718647572546,
+      "level": 11,
+      "ivs": [
+        1,
+        8,
+        6
+      ],
+      "poi_id": "admin:osm:node/322006746",
+      "spawned_ms": 1794215092627,
+      "expires_ms": 1794216892627,
+      "manual": false
+    },
+    {
+      "id": "spawn:337f0fff402cac29",
+      "species": 1,
+      "lat": 60.26758046664347,
+      "lng": 25.033766714798514,
+      "level": 15,
+      "ivs": [
+        15,
+        9,
+        13
+      ],
+      "poi_id": "admin:osm:node/443056309",
+      "spawned_ms": 1794215092662,
+      "expires_ms": 1794216892662,
+      "manual": false
+    },
+    {
+      "id": "spawn:3a05abdbeb81ef20",
+      "species": 104,
+      "lat": 60.25308055078811,
+      "lng": 25.007875498902102,
+      "level": 34,
+      "ivs": [
+        4,
+        3,
+        3
+      ],
+      "poi_id": "admin:osm:node/355434461",
+      "spawned_ms": 1794215125085,
+      "expires_ms": 1794216925085,
+      "manual": false
+    },
+    {
+      "id": "spawn:23256a50f735ca3a",
+      "species": 123,
+      "lat": 60.25316449590906,
+      "lng": 25.004566828364528,
+      "level": 29,
+      "ivs": [
+        1,
+        14,
+        13
+      ],
+      "poi_id": "admin:osm:node/443688993",
+      "spawned_ms": 1794215125101,
+      "expires_ms": 1794216925101,
+      "manual": false
+    }
+  ],
+  "raids": [
+    {
+      "id": "raid:33d4ce89dcb647c0",
+      "species": 146,
+      "tier": 5,
+      "lat": 52.3610021,
+      "lng": 4.9071213,
+      "poi_id": "admin:osm:node/427560648",
+      "starts_ms": 1794211682052,
+      "expires_ms": 1794215282052,
+      "manual": false
+    },
+    {
+      "id": "raid:258a3d32bae9fd1f",
+      "species": 144,
+      "tier": 5,
+      "lat": 52.3735587,
+      "lng": 4.8913489,
+      "poi_id": "admin:osm:node/440969468",
+      "starts_ms": 1794211803299,
+      "expires_ms": 1794215403299,
+      "manual": false
+    },
+    {
+      "id": "raid:0a61c236f6b64422",
+      "species": 146,
+      "tier": 5,
+      "lat": 60.2606985,
+      "lng": 24.9870904,
+      "poi_id": "admin:osm:node/289878320",
+      "starts_ms": 1794214108511,
+      "expires_ms": 1794217708511,
+      "manual": false
+    },
+    {
+      "id": "raid:7548297c690d6b74",
+      "species": 150,
+      "tier": 5,
+      "lat": 60.2766794,
+      "lng": 25.0397167,
+      "poi_id": "admin:osm:node/434404933",
+      "starts_ms": 1794214229779,
+      "expires_ms": 1794217829779,
+      "manual": false
+    },
+    {
+      "id": "raid:8f3c8df3daa7197d",
+      "species": 145,
+      "tier": 5,
+      "lat": 52.3575783,
+      "lng": 4.8994017,
+      "poi_id": "admin:osm:node/310569757",
+      "starts_ms": 1794214350615,
+      "expires_ms": 1794217950615,
+      "manual": false
+    },
+    {
+      "id": "raid:272efa03ef90135f",
+      "species": 249,
+      "tier": 5,
+      "lat": 60.2750596,
+      "lng": 25.0013365,
+      "poi_id": "admin:osm:node/514731939",
+      "starts_ms": 1794214471372,
+      "expires_ms": 1794218071372,
+      "manual": false
+    },
+    {
+      "id": "raid:c326615855480612",
+      "species": 144,
+      "tier": 5,
+      "lat": 52.3676105,
+      "lng": 4.8988548,
+      "poi_id": "admin:osm:node/1843775915",
+      "starts_ms": 1794214592701,
+      "expires_ms": 1794218192701,
+      "manual": false
+    },
+    {
+      "id": "raid:562ffd3bba1e8621",
+      "species": 250,
+      "tier": 5,
+      "lat": 52.3778507,
+      "lng": 4.9009769,
+      "poi_id": "admin:osm:node/427558833",
+      "starts_ms": 1794214714000,
+      "expires_ms": 1794218314000,
+      "manual": false
+    },
+    {
+      "id": "raid:2fa9dc7bfd83292f",
+      "species": 146,
+      "tier": 5,
+      "lat": 60.2612994,
+      "lng": 25.0038786,
+      "poi_id": "admin:osm:node/525504209",
+      "starts_ms": 1794214835140,
+      "expires_ms": 1794218435140,
+      "manual": false
+    },
+    {
+      "id": "raid:a7a2dab93963dca4",
+      "species": 243,
+      "tier": 5,
+      "lat": 60.2766794,
+      "lng": 25.0397167,
+      "poi_id": "admin:osm:node/434404933",
+      "starts_ms": 1794214957019,
+      "expires_ms": 1794218557019,
+      "manual": false
+    },
+    {
+      "id": "raid:4607439f677bab4d",
+      "species": 150,
+      "tier": 5,
+      "lat": 60.2798174,
+      "lng": 25.004072,
+      "poi_id": "admin:osm:node/428763814",
+      "starts_ms": 1794215079610,
+      "expires_ms": 1794218679610,
+      "manual": false
+    }
+  ]
+}
